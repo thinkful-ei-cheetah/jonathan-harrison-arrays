@@ -77,9 +77,11 @@ function main(){
 
     console.log(arr.get(0));
 }
+// URL
 
-
-main();
+let result='';
+const str = "www.thinkful.com /tauh ida parv een";
+result = str.split(" ").join("%20");
 
 
 
